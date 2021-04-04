@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './App.css';
 
 const Car = () =>(
-    <h2>I am a Car!</h2>
+    <div>
+      <h2>I am a Car!</h2>
+      <h3>(App2.js, Arrow function)</h3>
+    </div>
 );
 
 const App = () => (

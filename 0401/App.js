@@ -4,7 +4,12 @@ import './App.css';
 
 class Car extends React.Component {
   render() {
-    return <h2>I am a Car!</h2>;
+    return (
+      <div>
+        <h2>I am a Car!</h2>
+        <h3>(App.js, class component)</h3>
+      </div>
+    );
   }
 }
 
