@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+//This is the last file for today's homework, thank you!!
+
 class Clock extends React.Component {
   constructor(props){
     super(props);
@@ -18,7 +20,7 @@ class Clock extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello, world!(Check1)</h1>
+        <h1>Hello, world! (Complete!)</h1>
         <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
       </div>
     );
